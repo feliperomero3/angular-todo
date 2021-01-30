@@ -27,5 +27,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Screen capture
+
+![angular-todo.png][angular-todo]
+
 [angular-todo-status]: https://github.com/feliperomero3/angular-todo/actions?query=workflow:angular-todo.yml
 [angular-todo-badge]: https://github.com/feliperomero3/angular-todo/workflows/angular-todo.yml/badge.svg
+
+[angular-todo]: .github/assets/angular-todo.png
