@@ -1,5 +1,7 @@
 # Angular Todo
 
+[![angular-todo.yml][angular-todo-badge]][angular-todo-status]
+
 A very basic Angular application based on chapter 2 in the book 'Pro Angular 9' by Adam Freeman (Apress, 2020).
 
 >A simple Angular application that will manage a to-do list. The user will be able to see the list of to-do items, check off items that are complete, and create new items. To keep the application simple, I assume that there is
@@ -24,3 +26,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+[angular-todo-status]: https://github.com/feliperomero3/angular-todo/actions?query=workflow:angular-todo.yml
+[angular-todo-badge]: https://github.com/feliperomero3/angular-todo/workflows/angular-todo.yml/badge.svg
