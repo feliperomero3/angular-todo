@@ -9,6 +9,8 @@ import { TodoList } from './todo-list';
 })
 export class AppComponent {
   title = 'angular-todo';
+  showComplete = false;
+
   private list = new TodoList('Felipe', [
     new TodoItem('Go for run', true),
     new TodoItem('Get flowers'),
@@ -20,11 +22,11 @@ export class AppComponent {
   }
 
   get itemCount(): number {
-    return this.list.items.length;
+    return this.items.length;
   }
 
   get items(): readonly TodoItem[] {
-    return this.list.items.filter(item => !item.isDone);
+    return this.list.items.filter(item => this.showComplete || !item.isDone);
   }
 
   addItem(title: string): void {
