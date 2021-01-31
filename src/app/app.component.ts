@@ -27,4 +27,10 @@ export class AppComponent {
     return this.list.items.filter(item => !item.isDone);
   }
 
+  addItem(title: string): void {
+    if (title !== '') {
+      this.list.addItem(title);
+    }
+  }
+
 }
