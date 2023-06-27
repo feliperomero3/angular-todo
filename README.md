@@ -15,6 +15,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Nodejs 12.x
 - Angular CLI 9.x
 
+## Getting started
+
+1. Clone the repository.
+1. Run `npm install` to install dependencies.
+1. Run `ng serve` to start the development server.
+1. Navigate to `http://localhost:4200/`.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
