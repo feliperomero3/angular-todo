@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
       - name: Use Node ${{ env.NODE_VERSION }}
         env:
-          NODE_VERSION: '12.x'
+          NODE_VERSION: '14.x'
         uses: actions/setup-node@v1
         with:
           node-version: ${{ env.NODE_VERSION }}
